@@ -1,8 +1,9 @@
 import React from "react";
-import env from "react-dotenv";
+import "@fontsource/inter";
+import Layout from "./layouts/layout";
 
 const App = () => {
-  return <div>{env.API_URL}</div>;
+  return <Layout></Layout>;
 };
 
 export default App;
